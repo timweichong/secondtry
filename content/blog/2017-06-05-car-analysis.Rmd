@@ -7,9 +7,28 @@ categories: []
 tags: []
 description: 'A classification of cars'
 ---
+#Welcome
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
 ```
 
-Welcome to my first blog post!
+Welcome to my first blog post! This is a walkthrough of R markdown using the base R mtcars dataframe. The following 5 cars were randomly generated using this code.
+
+```{r mtcars, include=TRUE}
+mtcars[runif(5,min=1,max=20),]
+```
+##Hypothesis
+
+My basic hypothesis is that car manufacturers seek to maximize all available technology. This implies that the power to weight ratio of cars with similar engine specifications should consistently hit a maximum asymptote. Let us test that hypothesis using engine cylinder as a proxy for engine limitations.
+
+```{r, include = FALSE}
+ggplot(data=mtcars, aes(x=wt, y=hp)) +
+  geom_point(alpha=0.5) +
+  facet_wrap(~cyl) +
+  geom_smooth(method=lm)
+
+```
+
+As can be observed, the hypothesis has been disproved. There is too much scattering to suggest that the line of best fit in this diagram represents a maximum production possibility frontier. Instead, manufacturers are probably optimising to fit specific clientele rather than pushing a technological limit.
