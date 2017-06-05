@@ -11,7 +11,7 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "20170514_175203.jpg"
+  avatar = ""
   author = "Timothy Lim"
   description = "A Data Blog for all fields"
 
@@ -22,23 +22,20 @@ theme = "hugo-sustain"
 [params.social]
   Github        = "timweichong"
   Email         = "timlim@wharton.upenn.edu"
-  Twitter       = "username"
-  LinkedIn      = "username"
-  Stackoverflow = "username"
 
 ## Main Menu
 [[menu.main]]
   name = "blog"
   weight = 100
   identifier = "blog"
-  url = "/blog/"
+  url = "/blog"
 [[menu.main]]
   name = "projects"
   identifier = "projects"
   weight = 200
-  url = "/projects/"
+  url = "/projects"
 [[menu.main]]
   name = "resume"
   identifier = "resume"
   weight = 300
-  url = "/resume/"
+  url = "/resume"
