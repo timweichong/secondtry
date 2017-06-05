@@ -5,7 +5,11 @@ date: '2017-06-05'
 slug: car-analysis
 categories: []
 tags: []
-description: ''
+description: 'A classification of cars'
 ---
 
-Hi There!
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Welcome to my first blog post!
