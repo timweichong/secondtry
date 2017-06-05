@@ -12,7 +12,7 @@ theme = "hugo-sustain"
 
 [params]
   avatar = "20170514_175203.jpg"
-  author = "Chris Turner"
+  author = "Timothy Lim"
   description = "Describe your website"
 
   # Custom assets can be linked with their paths relative to static/
