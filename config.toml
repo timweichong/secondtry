@@ -1,4 +1,4 @@
-baseurl = "https://chess-master-panda-32173.netlify.com"
+baseurl = "http://chess-master-panda-32173.netlify.com"
 languageCode = "en-US"
 title = "Timothy Lim"
 # Enable comments by entering your Disqus shortname
@@ -13,15 +13,15 @@ theme = "hugo-sustain"
 [params]
   avatar = "20170514_175203.jpg"
   author = "Timothy Lim"
-  description = "Describe your website"
+  description = "A Data Blog for all fields"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
   custom_js  = []
 
 [params.social]
-  Github        = "username"
-  Email         = "email@example.com"
+  Github        = "timweichong"
+  Email         = "timlim@wharton.upenn.edu"
   Twitter       = "username"
   LinkedIn      = "username"
   Stackoverflow = "username"
