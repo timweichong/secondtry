@@ -23,7 +23,7 @@ mtcars[runif(5,min=1,max=20),]
 
 My basic hypothesis is that car manufacturers seek to maximize all available technology. This implies that the power to weight ratio of cars with similar engine specifications should consistently hit a maximum asymptote. Let us test that hypothesis using engine cylinder as a proxy for engine limitations.
 
-```{r, include = FALSE}
+```{r, include = TRUE}
 ggplot(data=mtcars, aes(x=wt, y=hp)) +
   geom_point(alpha=0.5) +
   facet_wrap(~cyl) +
