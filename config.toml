@@ -11,7 +11,7 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "profile.jpg"
+  avatar = "img/profile.jpg"
   author = "Timothy Lim"
   description = "A Data Blog for all fields"
 
